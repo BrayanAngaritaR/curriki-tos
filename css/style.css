@@ -76,7 +76,7 @@ p.tos_and_pp_pb, span.tos_pap_link{
 .tos_pap_min_height{
    position: sticky;
    top: 20px;
-   height: 60vh;
+   height: 99vh;
    overflow: auto;
 }
 
