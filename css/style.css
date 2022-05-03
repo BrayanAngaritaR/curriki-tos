@@ -76,6 +76,24 @@ p.tos_and_pp_pb, span.tos_pap_link{
 .tos_pap_min_height{
    position: sticky;
    top: 20px;
-   height: 600px;
+   height: 60vh;
    overflow: auto;
+}
+
+.tos_pap_min_height::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.tos_pap_min_height::-webkit-scrollbar:vertical {
+    width: 11px;
+}
+
+.tos_pap_min_height::-webkit-scrollbar:horizontal {
+    height: 11px;
+}
+
+.tos_pap_min_height::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    border: 2px solid white; /* should match background, can't be transparent */
+    background-color: rgba(0, 0, 0, .5);
 }
